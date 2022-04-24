@@ -1,0 +1,62 @@
+
+nav{
+text-align: center;
+
+
+}
+.menu>li{
+      display: inline-block;/* met les "li" en ligne */
+      margin: 5px;
+}
+.menu>li>a{
+    display: inline-block;
+    text-decoration: none;
+    color:rgb(255, 250, 250);
+    padding: 10px;
+    font-size: 1.5em;
+}
+.menu>li:hover{
+    border-bottom: 4px solid rgb(236, 124, 124);
+/* Ajoute une bordure
+de bas de couleur bleue au survol de la souris  */
+}
+.services{
+    position: relative; /*Pour positionner le sous menu
+par rapport à son parent ".services" */
+}
+.sous-menu{
+    position: absolute;
+    left:0;
+    width: 100%;
+    max-height: 0;/* Pour cacher le sous menu */
+    overflow: hidden;/* Pour cacher le contenu du sous menu */
+    transition: max-height 0.5s ease;/* transition appliquée sur la propriété max-height*/
+    padding: 0;
+    margin: 5px 0;
+}
+.services:hover>.sous-menu{
+    max-height:150px; /* Pour afficher le menu après le "hover" */
+    }
+.sous-menu>li{
+      text-align: center;  
+      background-color:rgb(235, 117, 117);
+      line-height: 1.5em;
+      font-size: 1em;
+      padding: 5px 0;
+      border: 1px #fff solid;
+}
+.sous-menu>li>a{
+      display: inline-block;
+      width: 100%;
+      color:#fff;
+}
+.sous-menu>li:hover{
+    background:rgb(17, 48, 184);
+}
+
+.table{
+
+
+
+
+}

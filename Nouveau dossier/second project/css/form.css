@@ -1,0 +1,32 @@
+body{
+	background: linear-gradient(to right ,rgb(223, 141, 238),rgb(243, 119, 37));
+}
+
+legend{
+	color:rgb(145, 235, 235);
+	text-shadow:2px 2px rgb(70, 119, 194);
+	font-size:14px;
+	font-family:arial;
+}
+tr td:first-child{
+	color:rgb(118, 119, 119);
+	font-size:10px;
+	font-family:arial;
+}
+tr td:last-child{
+	color:rgb(78, 68, 68);
+	font-size:10px;
+	font-family:arial;
+}
+input{
+	border-radius:10px 10px;
+	background-color:rgb(78, 142, 194);
+	border:2px solid rgb(118, 207, 148);
+}
+.formmid{
+
+margin-left: 38%;
+height: 50px;
+width: 350px;
+margin-top: 150px;
+}
